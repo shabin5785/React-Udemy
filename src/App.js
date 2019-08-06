@@ -15,6 +15,7 @@ class App extends Component {
     // this.handleChange = this.handleChange.bind(this);
   }
 
+  //
   handleChange = e => {
     this.setState({ searchField: e.target.value });
   };
